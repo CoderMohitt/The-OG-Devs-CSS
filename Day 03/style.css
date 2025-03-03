@@ -1,0 +1,21 @@
+span{
+    font-size: 20px;
+    line-height: normal;    
+    text-transform: none;
+}
+
+div{
+    height: 300px;
+    width: 300px;
+    /* border-width: 2px;
+    border-style: dashed;
+    border-color: red; */
+    border: 2px solid orange;
+    border-radius: 10px;
+    padding: 10px 20px 30px 40px ;   
+}
+
+#one{
+    height: 100px;
+    width: 200px;
+}

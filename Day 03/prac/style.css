@@ -1,0 +1,22 @@
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-transform: uppercase;
+    border: 2px solid black;
+}
+
+#outer{
+    font-size: 25px;
+}
+
+#inner{
+    font-size: 10px;
+}
+
+span{
+    border: 2px solid black;
+    margin: 10px;
+}
