@@ -1,0 +1,37 @@
+*{
+    color: white;
+    font-size: 20px;
+}
+
+#main{
+    background-color: black;
+    height: 60px;
+    padding-top: 10px;
+}
+
+.same{
+    margin-left: 200px;
+}
+
+.common{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+
+#one{
+    background-color: rgba(255, 0, 0, 0.584);
+}
+
+#two{
+    background-color: rgba(255, 166, 0, 0.548);
+}
+
+#three{
+    background-color: rgba(0, 0, 255, 0.525);
+}
+
+main{
+    height: 600px;
+    background-color: aqua;
+}
