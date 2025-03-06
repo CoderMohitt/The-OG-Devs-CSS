@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    height: 100vh;
+    width: 100vw;
+    background-color: orange;
+}
+
+span{
+    font-size: 20px;
+}
+
+#main{
+    height: 500px;
+    width: 80vw;
+    border: 2px solid black;
+}
+
+#inside{
+    height: 300px;
+    width: 50%;
+    border: 2px solid black;
+}
+
+#mainText{
+    font-size: 8px;
+}
