@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .image{
+            width: 350px;
+            height: 250px;
+        }
+
+        .parent{
+            /* position: relative; */
+            height: 8000px;
+            background-color: beige;
+        }
+        .parent1{
+            /* position: relative; */
+            height: 8000px;
+            background-color: red;
+        }
+
+        #second{
+            /* position: static; */
+
+            /* position: relative;
+            top: 100px;
+            right: 100px; */
+
+            /* position: absolute;
+            top: 100px;
+            right: 100px; */
+            /* left: 100px;  */
+            /* bottom: 100px; */
+        }
+
+        #third{
+            position: fixed;
+            top: 100px;
+        }
+
+        #one{
+            position: sticky;
+            top: 200px;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <img src="https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/2020-Chevrolet-Corvette-Stingray/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&width=960" alt="" class="image" id="one">
+
+        <img src="https://www.spinny.com/blog/wp-content/uploads/2024/09/videoframe_0.webp" alt="" class="image" id="second">
+
+        <img src="https://stimg.cardekho.com/images/carexteriorimages/630x420/BMW/M5-2025/11821/1719462197562/front-left-side-47.jpg?impolicy=resize&imwidth=480" alt="" class="image" id="third">
+
+        <img src="https://carwow-uk-wp-0.imgix.net/18015-MC20BluInfinito-scaled-e1707920217641.jpg?auto=format&cs=tinysrgb&fit=crop&h=800&ixlib=rb-1.1.0&q=60&w=1600" alt="" class="image">
+    </div>
+
+    <div class="parent1"></div>
+</body>
+</html>

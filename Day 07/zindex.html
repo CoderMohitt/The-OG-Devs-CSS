@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url("https://www.topgear.com/sites/default/files/news-listicle/image/2023/09/LEAD.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+
+        #one{
+            height: 100px;
+            width: 100px;
+            background-color: red;
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            z-index: 4;
+        }
+        #two{
+            height: 100px;
+            width: 100px;
+            background-color: orange;
+            position: absolute;
+            z-index: 2;
+        }
+        #three{
+            height: 100px;
+            width: 100px;
+            background-color: black;
+            position: relative;
+            z-index: 3; 
+            top: 30px;
+        }
+
+        #forImage{
+            height: 500px;
+            width: 600px;
+            background-color: yellow;
+
+        }
+    </style>
+</head>
+<body>
+    <div id="one"></div>
+    <div id="two"></div>
+    <div id="three"></div>
+
+    <h1 style="color: black; text-align: center; position: fixed;">Welcome to My Page</h1>
+
+    <div id="forImage"></div>
+</body>
+</html>
