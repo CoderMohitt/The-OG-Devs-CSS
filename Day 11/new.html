@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            border: 2px solid black;
+            display: flex;
+        }
+
+        #login{
+            background-color: blue;
+            padding: 5px;
+            /* flex-grow: 1; */
+            flex-basis: 200px;
+            flex-shrink: 1;
+        }
+
+        #logout{
+            background-color: orange;
+            padding: 5px;
+            /* flex-grow: 2; */
+            flex-basis: 200px;
+            flex-shrink: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div id="login">login</div>
+        <div id="logout">logout</div>
+    </div>
+</body>
+</html>
