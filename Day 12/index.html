@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #main{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+
+        #new{
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+        }
+
+        @media (max-width: 500px){
+            #main{
+                background-color: orange;
+            }
+        }
+
+        @media (max-width: 500px){
+            #new{
+                background-color: beige;
+            }
+        }
+
+        @media (min-width: 1000px){
+            #new{
+                background-color: black;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main"></div>
+
+    <div id="new"></div>
+</body>
+</html>

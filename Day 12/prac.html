@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #green{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        }
+        #pink{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            margin-top: 50px;
+        }
+        #blue{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            margin-top: 50px;
+        }
+
+        @media (max-width: 300px){
+            #green{
+                background-color: green;
+            }
+        }
+
+        @media (min-width: 300px) and (max-width: 400px){
+            #pink{
+                background-color: pink;
+            }
+        }
+
+        @media (min-width: 600px){
+            #blue{
+                background-color: blue;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="green"></div>
+
+    <div id="pink"></div>
+
+    <div id="blue"></div>
+</body>
+</html>

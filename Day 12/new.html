@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* #one{
+            height: 200px;
+            width: 200px;
+            background-color: red;
+        } */
+
+        /* @media (min-width: 500px) and (max-width: 700px){
+            #one{
+                background-color: orange;   
+            }
+        } */
+         #main{
+            border: 2px solid black;
+            display: flex;
+            gap: 20px;
+         }
+
+        .common{
+            height: 200px;
+            width: 200px;
+            background-color: orange;
+        }
+
+        @media (max-width: 500px){
+            #main{
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div id="main">
+        <div class="common"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+        <div class="common"></div>
+    </div>
+</body>
+</html>
