@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+        }
+        .parent{
+            display: flex;
+            /* flex-wrap: wrap; */
+            flex-direction: column;
+            gap: 100px;
+        }
+        .common{
+            height: 200px;
+            width: 200px;
+            background-color: green;
+            border: 2px solid black;
+        }
+
+        .same{
+            display: flex;
+            gap: 100px;
+        }
+
+        #rotateX:hover{
+            transform: rotateX(45deg);
+        }
+
+        #rotateY:hover{
+            transform: rotateY(45deg);
+        }
+        #rotateZ:hover{
+            transform: rotateZ(45deg);
+        }
+        #scaleX:hover{
+            transform: scaleX(2);
+        }
+        #scaleY:hover{
+            transform: scaleY(2);
+        }
+        #scaleZ:hover{
+            transform:scaleZ(0.5);
+        }
+        #translateX:hover{
+            transform:translateX(400px);
+        }
+        #translateY:hover{
+            transform:translateY(-400px);
+        }
+        #translateZ:hover{
+            transform:perspective(300px) translateZ(-400px);
+        }
+    </style>
+</head>
+<body>
+   <div class="parent">
+       <div id="one"  class="same">
+        <div class="common" id="rotateX"></div>
+        <div class="common" id="rotateY"></div>
+        <div class="common" id="rotateZ"></div>
+       </div>
+       
+
+       <div id="two" class="same">
+        <div class="common" id="scaleX"></div>
+        <div class="common" id="scaleY"></div>
+        <div class="common" id="scaleZ"></div>
+       </div>
+        
+       <div id="three" class="same">
+        <div class="common" id="translateX"></div>
+        <div class="common" id="translateY"></div>
+        <div class="common" id="translateZ"></div>
+       </div>
+    </div>
+</body>
+</html>
