@@ -1,0 +1,313 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    background-color: black;
+}
+
+*{
+    font-family: "Roboto", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+nav{
+    height: 100px;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+#lang{
+    border: 1px solid white;
+    border-radius: 20px;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    color: white;
+}
+
+#sign{
+    background-color: white;
+    border-radius: 20px;
+    padding: 5px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
+
+#parHead{
+    display: flex;
+    gap: 20px;
+}
+
+#bgDiv{
+    height: 550px;
+    background-color: red;
+    background-image: url('./Assets/netflixBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 
+        0 0 40px rgba(231, 53, 53, 0.3),
+        0 0 50px rgba(255, 0, 0, 0.2),
+        0 0 60px rgba(255, 0, 0, 0.1),
+        0 0 70px rgba(255, 0, 0, 0.05);
+    margin-bottom: 70px;
+}
+
+#overlay{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.719);
+    border-radius: 20px;
+}
+
+#forText{
+    position: absolute;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+    justify-content: center ;
+    align-items: center;
+    gap: 15px;
+}
+
+#forText h1{
+    color: white;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+#forText span{
+    color: white;
+    font-size: 25px;
+}
+
+#forText p{
+    color: white;
+    margin-top: 40px;
+    /* font-size: 25px; */
+}
+
+#forEmail{
+    display: flex;
+    gap: 20px;
+}
+
+#forEmail input{
+    height: 50px;
+    width: 350px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgba(128, 128, 128, 0.68);
+}
+
+#forEmail button{
+    display: flex;
+    height: 50px;
+    width: 200px;
+    border-radius: 30px;
+    background-color: red;
+    border: none;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+#trending{
+    height: 400px;
+    /* background-color: red; */
+}
+
+#trending span, #more{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.common{
+    height: 320px;
+    width: 200px;
+    background-color: yellow;
+    border-radius: 20px;
+    position: relative;
+    transition: all 0.5s;
+}
+
+.common:hover{
+    transform: scale(1.05);
+}
+
+#img1{
+    background-image: url('./Assets/pushpa.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#img2{
+    background-image: url('./Assets/dragon.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#img3{
+    background-image: url('./Assets/emergency.webp');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.common span{
+    font-size: 70px;
+    font-weight: 900;
+    -webkit-text-stroke: 2px white;
+    position: absolute;
+    left: -15px;
+    top: 20px;
+}
+
+#forImages{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+#reasons{
+    margin-top: 20px;
+}
+
+.commonReason{
+    height: 200px;
+    width: 300px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.482);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    gap: 10px;
+}
+
+.commonReason span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.forSvg{
+    align-self: flex-end;
+}
+
+#forCommonReason{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+#questions{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#questions #quesHead{
+    font-size: 50px;
+    font-weight: bold;
+    color: white;
+    align-self: flex-start;
+}
+
+.commonQues{
+    height: 80px;
+    width: 80%;
+    background-color: rgb(25, 22, 22);
+    margin-top: 25px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+    transition: all 1s;
+}
+
+.commonQues:hover{
+    cursor: pointer;
+    background-color: rgb(79, 73, 73);
+}
+
+.commonQues span{
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+footer{
+    height: 550px;
+    margin-top: 40px;
+    /* background-color: orange; */
+}
+
+#footerEmail span{
+    color: white;
+}
+
+#footerEmail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 60px;
+}
+
+#number{
+    color: white;
+}
+
+#footerMainDiv{
+    height: 300px;
+    /* background-color: orange; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerSame{
+    height: 300px;
+    width: 300px;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerSame ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footerSame a{
+    text-decoration: underline;
+    color: white;
+}
